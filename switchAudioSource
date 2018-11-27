@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Switch between back and front audio outputs
+# Usage: switchAudioSource <back/front>
+
+output=$1
+
+if [ "$1" == "back" ]; then
+  amixer -c 1 set Headphone 0
+  amixer -c 1 set Front 100
+else
+  amixer -c 1 set Front 0
+  amixer -c 1 set Headphone 100
+fi

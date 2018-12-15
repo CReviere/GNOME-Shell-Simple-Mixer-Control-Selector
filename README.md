@@ -1,4 +1,4 @@
-#Gnome-Shell Extension Audio-Output-Switcher-Workaround
+# Gnome-Shell Extension Audio-Output-Switcher-Workaround
 
 This fork is a hard-coded workaround for the issue of being unable to switch between headphones (front case audio out) and speakers (rear case audio out) while both devices were plugged in. It simply displays an option in GNOME's volume menu, and calls a wrapper script for `amixer` to set the volume levels accordingly.
 

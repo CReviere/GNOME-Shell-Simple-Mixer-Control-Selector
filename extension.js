@@ -63,3 +63,4 @@ function disable() {
 	audioOutputSubMenu.destroy();
 	audioOutputSubMenu = null;
 }
+

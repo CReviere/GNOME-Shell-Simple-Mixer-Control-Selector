@@ -4,6 +4,8 @@
 
 output=$1
 
+amixer -c 1 sset "Auto-Mute Mode" Disabled
+
 if [ "$1" == "back" ]; then
   amixer -c 1 set Headphone 0
   amixer -c 1 set Front 100

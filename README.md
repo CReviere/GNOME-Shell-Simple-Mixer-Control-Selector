@@ -9,16 +9,12 @@ The script uses alsa sound card #1, and assumes the simple mixer control names '
 Once the script is configured for your setup, you should be able to switch between devices by running `switchAudioSources front` or `switchAudioSources back`. Once this is working, the extension should be ready to use.
 
 
-![The menu](https://extensions.gnome.org/static/extension-data/screenshots/screenshot_1028.png)
+![The menu](https://github.com/CReviere/GNOME-Shell-Simple-Mixer-Control-Selector/blob/master/screenshot.png)
 
 ## Compatibility
-  - Gnome Shell 3.10
-  - Gnome Shell 3.12
-  - Gnome Shell 3.14
-  - Gnome Shell 3.16
-  - Gnome Shell 3.18
-  - Gnome Shell 3.20
-  - Gnome Shell 3.22
+
+This extension was developed using GNOME 3.30.2. The extension *should* work for 
+versions going back to 3.10, but testing still needs to be performed.
 
 ## About
 

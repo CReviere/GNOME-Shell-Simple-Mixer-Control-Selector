@@ -28,7 +28,7 @@ Either via
 
 via git
 
-`git clone git@github.com:CReviere/gnome-shell-audio-output-switcher-workaround.git ~/.local/share/gnome-shell/extensions/gnome-shell-audio-output-switcher-workaround@CReviere`
+`git clone git@github.com:CReviere/gnome-shell-audio-output-switcher-workaround.git ~/.local/share/gnome-shell/extensions/gnome-shell-simple-mixer-contorol-selector-workaround@CReviere`
 
 Then restart the gnome-shell via ALT+F2 r and enable the extension using gnome-tweak-tool
 
